@@ -44,10 +44,10 @@ public class AppTest {
      *
      * @param args the input arguments
      */
-    public static void main(String[] args) throws Throwable {
+    public static void main(String[] args) throws Throwable {//测试提交
         TMClient.init(APPLICATION_ID, TX_SERVICE_GROUP);
         RMClient.init(APPLICATION_ID, TX_SERVICE_GROUP);
- 
+
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 "basic-test-context.xml");
 
